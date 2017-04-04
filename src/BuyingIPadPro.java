@@ -5,8 +5,10 @@ public class BuyingIPadPro {
     public static void main(String[]args){
 
         double ipadProPrice = 999_000.0;
-        double salePrice = ipadProPrice * 0.15;
+        double discountRate = 15.0 / 100;
+        double discountPrice = ipadProPrice * (1 - discountRate);
+        //int discountPrice = (int)(ipadProPrice * (1 - discountRate));로 casting해줘도 됨
 
-        System.out.println("iPad Pro 15% 세일 가격은 " + salePrice + "입니다.");
+        System.out.println("iPad Pro 15% 세일 가격은 " + discountPrice + "입니다.");
     }
 }
