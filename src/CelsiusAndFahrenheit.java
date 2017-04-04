@@ -17,12 +17,6 @@ public class CelsiusAndFahrenheit {
 
          System.out.println("섭씨 50도는 화씨로" + fahrenheit + "입니다.");
 
-
-
-
-
-
-        System.out.println("");
    }
 }
 
