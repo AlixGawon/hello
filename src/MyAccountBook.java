@@ -8,6 +8,6 @@ public class MyAccountBook {
         double lunch = 5000.0;
         double totalExpense = transportationExpense * 2 + coffee + lunch;
 
-        System.out.println("오늘 경비 = " + totalExpense);
+        System.out.println("오늘의 경비 = " + totalExpense);
     }
 }
