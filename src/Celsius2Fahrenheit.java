@@ -1,7 +1,7 @@
 /**
  * Created by Alix Gawon Lee on 2017-04-04.
  */
-public class CelsiusAndFahrenheit {
+public class Celsius2Fahrenheit {
     public static void main(String[]args){
 
         double celsius = 0;
