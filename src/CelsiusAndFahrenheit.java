@@ -1,5 +1,5 @@
 /**
- * Created by danawacomputer on 2017-04-04.
+ * Created by Alix Gawon Lee on 2017-04-04.
  */
 public class CelsiusAndFahrenheit {
     public static void main(String[]args){
