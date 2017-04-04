@@ -28,6 +28,10 @@ public class VarTypeExample {
         boolean myBool = true; //false
         //bool타입은 무조건 bool타입에 담아야 한다
 
+        System.out.println(myBool);
+        System.out.println(myDouble);
+        System.out.println(myStr);
+
 
 
 
