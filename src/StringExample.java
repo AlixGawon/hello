@@ -13,6 +13,10 @@ public class StringExample {
         String result2 = myStr1 +3;
         // 문자열 + 숫자일 경우에는 그냥 문자열과 숫자가 같이 출력됨. 즉 결합연산
 
+        /*문자열을 split하는 방법*/
+
+        String split = myStr1.substring(0,1);
+
         /*문자열 소문자로 변환하기*/
 
         String sliced = myStr1.toLowerCase();
@@ -32,8 +36,10 @@ public class StringExample {
         System.out.println(result2);
         System.out.println(sliced);
         System.out.println(b);
+        System.out.println(split);
         System.out.println(c);
         System.out.println(d);
+
 
     }
 
