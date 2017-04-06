@@ -17,6 +17,7 @@ public class ElementAverage {
             //System.out.println(numOfChar);
              sum = sum + numOfChar;
              //System.out.println(sum);
+            //이래야 다 더해짐
         }
 
         sumAverage = sum / averageLength;
