@@ -35,7 +35,7 @@ public class ArrayListExample {
             sum += myListAmount;
             //System.out.println(sum);
             //3. 단어가 5자 이하인 새로운 리스트를 생성한다.
-            if (e.length() <5){
+            if (e.length() <=5){
                 newMyList.add(e);
             }
         }
