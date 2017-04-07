@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 public class PasswordFormation {
-    public static void main(String[]args){
+    public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
@@ -13,34 +13,22 @@ public class PasswordFormation {
 
         String inputted = in.nextLine();
 
-        String beingCapital =""; //String 초깃값은 ""
+        String beingCapital = ""; //String 초깃값은 ""
 
         String sum = "";
-
-
-
 
 
         int length = inputted.length();
         //System.out.println(length);
 
-        String passwordGenerated = makePassword(inputted,beingCapital, sum);//변수 다 적어줘야 함
+        PasswordFormationService service = new PasswordFormationService();
+
+        String passwordGenerated = service.makePassword(inputted, beingCapital, sum);//변수 다 적어줘야 함
 
 
+        //System.out.println("$$" + passwordGenerated + (length * length) + "##");
 
-        System.out.println("$$" + passwordGenerated + (length * length) + "##");
     }
-    public static String makePassword(String inputted, String beingCapital, String sum) { //필요한 것 다 적기기
-        beingCapital = inputted.substring(0, 1).toUpperCase();
-        //System.out.println(beingCapital);
-
-        sum = inputted.substring(1);
-        //String sum = inputted.substring(1,7);
-        // 여기서 잘못 만들음. 끝이 어딘 줄 알고 7까지 지정함
-
-        return beingCapital;
-    }
-
 }
 
 /* <강사님 모범답안>
