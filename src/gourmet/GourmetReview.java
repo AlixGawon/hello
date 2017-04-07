@@ -50,17 +50,10 @@ public class GourmetReview {
 
         //score들의 평균
 
-        int listLength = list.size();
-        int listLengthSum = 0;
-        int listLengthAverage =0;
+        GourmetService zzz = new GourmetService();
+        System.out.println(zzz.calcAverageScore(list)); //calcAverageScore가 list를 참조하였기 때문에 적는 것.
 
-        for (Gourmet e : list) { //이것은 String 형태가 아니라 Gourmet 형식이다
-            listLengthSum += e.score; //앞에 Gourmet class에 넣어야하니까( 앞에 int score준 것 생각하기!)
 
-            System.out.println(listLengthSum);
-        }
-        listLengthAverage = listLengthSum / listLength;
-        System.out.println(listLengthAverage);
 
         //
 
