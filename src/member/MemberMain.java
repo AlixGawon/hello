@@ -86,6 +86,7 @@ public class MemberMain {
         list.add(eleven);
 
         MemberReview zzz = new MemberReview();
+
         System.out.println(zzz.calcAverageAge(list)); //calcAverageAge가 list를 참조하였기 때문에 적는 것.
         System.out.println(zzz.howManyMembersWithLastName(list));
         System.out.println(zzz.calcAverageIdChar(list));
