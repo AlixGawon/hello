@@ -19,50 +19,50 @@ public class MemberMain {
         Member two = new Member();
         two.setName("류관이");
         two.setAge(25);
-        two.setHpNum("010-6439-5943");
-        two.setEmail("dlrkdnjs1211@gmail.com");
+        two.setHpNum(" 010-2478-1378");
+        two.setEmail("sona.ria.sss@gmail.com");
 
         Member three = new Member();
         three.setName("이진석");
         three.setAge(26);
-        three.setHpNum("010-6439-5943");
-        three.setEmail("dlrkdnjs1211@gmail.com");
+        three.setHpNum("010-2979-0767");
+        three.setEmail("jins920409@gmail.com");
 
         Member four = new Member();
         four.setName("김태준");
         four.setAge(27);
-        four.setHpNum("010-6439-5943");
-        four.setEmail("dlrkdnjs1211@gmail.com");
+        four.setHpNum("010-6256-7334");
+        four.setEmail("kim19911211@gmail.com");
 
         Member five = new Member();
         five.setName("임준성");
         five.setAge(20);
-        five.setHpNum("010-6439-5943");
-        five.setEmail("dlrkdnjs1211@gmail.com");
+        five.setHpNum("010-9972-8210");
+        five.setEmail("wnstjd9972@gmail.com");
 
         Member six = new Member();
         six.setName("류승아");
         six.setAge(25);
-        six.setHpNum("010-6439-5943");
-        six.setEmail("dlrkdnjs1211@gmail.com");
+        six.setHpNum("010-9377-6928");
+        six.setEmail("loveyou_06@naver.com");
 
         Member seven = new Member();
         seven.setName("김세원");
         seven.setAge(27);
-        seven.setHpNum("010-6439-5943");
-        seven.setEmail("dlrkdnjs1211@gmail.com");
+        seven.setHpNum("010-4734-6373");
+        seven.setEmail("sewon0613@naver.com");
 
         Member eight = new Member();
         eight.setName("진하영");
         eight.setAge(24);
-        eight.setHpNum("010-6439-5943");
-        eight.setEmail("dlrkdnjs1211@gmail.com");
+        eight.setHpNum("010-3033-3247");
+        eight.setEmail("vnfflvdl1@gmail.com");
 
         Member nine = new Member();
         nine.setName("이기봉");
         nine.setAge(26);
-        nine.setHpNum("010-6439-5943");
-        nine.setEmail("dlrkdnjs1211@gmail.com");
+        nine.setHpNum("010-3009-5732");
+        nine.setEmail("lkb573@gmail.com");
 
         Member ten = new Member();
         ten.setName("허민");
