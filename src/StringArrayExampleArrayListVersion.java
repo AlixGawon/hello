@@ -28,7 +28,7 @@ public class StringArrayExampleArrayListVersion {
 
         for (String e : goumet) {
             if (e.length() <= 3) {
-                goumetUnderThreeChar.add(e);
+
             }
         }
 // 새로 만들어진 리스트 출력

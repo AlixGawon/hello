@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class InterestCalculation {
+public class InterestCalculations {
     public static void main(String[]args){
         Scanner in = new Scanner(System.in);
 
@@ -24,6 +24,7 @@ public class InterestCalculation {
         //기간 : 연
 
         double interestCalFormula = principal * (interest/100) * (period/12);
+        //double interestCalFormula = calcInterest(principal, period, interest);
 
         //output
 
@@ -33,3 +34,13 @@ public class InterestCalculation {
 
     }
 }
+
+/*public static double calcInterest(int principal, int month, double rate) {
+
+
+    double interest =
+            principal * (rate/100) * (month/12);
+
+    return interest;
+
+}*/

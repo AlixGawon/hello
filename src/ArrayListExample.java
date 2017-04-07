@@ -15,7 +15,8 @@ public class ArrayListExample {
 
         //1. inform 스트링을 리스트로 변환
         // 공백을 기준으로 분리( 공백을 딜리미터로 분리)
-
+        //1-1 스트링을 분해해서 스트링의 배열로 만든다.
+        //String[] splitted = review.split("");
         List<String> myList = new ArrayList<String>(Arrays.asList(inform.split(" "))); //ArrayList는 초깃값 필요 없음 그리고 split은 무엇을 기준으로 나누는 메소드, asㅣist는 myList에 inform.split을 넣을 때
         for (String e : myList) {
 
