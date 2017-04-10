@@ -4,7 +4,7 @@ package member;
  * Created by Alix Gawon Lee on 2017-04-07.
  */
 public class Member {
-    private String name; //멤버 변수는 생성될 때 자동으로 초기화 됨.
+    private String name; //멤버 변수는 생성될 때 자동으로 초기화 됨. 속성 정하기라고 생각하면 됨. 추상화(abstract)
     private int age;
     private String hpNum;
     private String email;
