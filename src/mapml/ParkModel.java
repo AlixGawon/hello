@@ -26,12 +26,14 @@ public class ParkModel {
 
             br.readLine(); //skip the first line
             String line = "";
-            while ((line = br.readLine()) != null) {
+            while ((line = br.readLine()) != null) { //한 줄씩 읽을 때 만약 공백이 나오지 않을 때!
+                // (다행히 이번 데이터에는 공백이 없음. 공백있는 것은 HallOfFame의 main예제 볼 것!
 
                 String[] splitted = line.split(",");
 
                 // Map에 넣기 list에서는 add를 쓰고 map에서는 put을 씀
-                map.put(splitted[0], new Park(splitted[1],splitted[2],splitted[3],splitted[4],splitted[5]));
+                map.put(splitted[0], new Park(splitted[1],splitted[2],splitted[3],splitted[4],splitted[5]));//0번째가 key, 그 다음부터가 value
+                //앞에 Map<String, Park> map = new HashMap<>();라고 한 것에서 보면 Key 부분을 splitted[0]으로 지정한 것이고, value는 Park에서 불러옴
 
             }
 
@@ -44,6 +46,6 @@ public class ParkModel {
 
 
 
-        System.out.println(map.get("BAL03"));
+        System.out.println(map.get("BAL07"));
     }
 }
