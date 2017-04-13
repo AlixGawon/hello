@@ -1,4 +1,4 @@
-package fame;
+package fame.model;//fame 패키지 밑에 있는 model 패키지에 있다.
 
 /**
  * Created by danawacomputer on 2017-04-11.
@@ -28,8 +28,7 @@ public class HallOfFame {
                 '}';
     }
 
-    HallOfFame(){
-
+    public HallOfFame() {
     }
 
     public HallOfFame(String playerId, int yearid, String votedBy, int ballots, int needed, int votes, boolean inducted, String neededNote) {

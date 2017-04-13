@@ -72,6 +72,7 @@ public class Salary {
                 ", playerID='" + playerID + '\'' +
                 ", salary=" + salary +
                 '}';
+
     }
 }
 

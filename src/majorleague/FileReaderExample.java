@@ -8,14 +8,11 @@ import java.io.FileReader;
  */
 public class FileReaderExample {
 
-    public static void main(String[] args) throws Exception {
-
-        FileReader fr = new FileReader("src\\parks.csv");
-
-        BufferedReader br = new BufferedReader(fr);
+    public static void main(String[] args) throws Exception {//throws Exception은 예외처리 안 하겠다는 선언. 예외는 메서드가 생성
 
 
-
+        BufferedReader br = new BufferedReader(new FileReader("src\\parks.csv"));
+        //한 번 더 wrapping해서 사용하기 더 쉽게 한 것이 BufferedReader!
        /* while(true) {//무한반복
             String line = br.readLine();
 
